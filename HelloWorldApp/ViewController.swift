@@ -16,7 +16,8 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         helloWorldLabel.isHidden = true
         showTextButton.layer.cornerRadius = 10
-        
+        showTextButton.setTitle("Show text", for: .normal)
+
     }
 
     @IBAction func showTextButtonPressed() {
